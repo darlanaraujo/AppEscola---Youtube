@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Escola Educando</string>
+    <string name="titulo">ESCOLA INFANTIL</string>
+    <string name="subtitulo">EDUCANDO</string>
+    <string name="construcao">EM CONSTRUÇÃO!</string>
+    <string name="texto_notas">LANÇAR NOTAS DO ALUNO:</string>
+    <string name="nota1">NOTA 1:</string>
+    <string name="nota2">NOTA 2:</string>
+    <string name="verificar">verificar</string>
+    <string name="aprovado">APROVADO!</string>
+    <string name="reprovado">REPROVADO!</string>
+    <string name="recuperação">RECUPERAÇÃO!</string>
+    <string name="campo_vazio">Por favor, preencha todos os campos!</string>
+</resources>
