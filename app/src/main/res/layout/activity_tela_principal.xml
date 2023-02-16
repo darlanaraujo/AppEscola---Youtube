@@ -113,12 +113,9 @@
 
         <Button
             android:id="@+id/btn1"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            style="@style/Botao"
             android:layout_marginTop="32dp"
-            android:backgroundTint="@color/azul_100"
             android:text="Botão de Teste"
-            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +125,7 @@
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="fitEnd"
+            android:scaleType="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -137,19 +134,15 @@
 
         <Button
             android:id="@+id/btnNotas"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/azul_100"
+            style="@style/Botao"
             android:text="Cadastrar Notas"
-            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn1" />
 
         <Button
             android:id="@+id/btn2"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            style="@style/Botao"
             android:text="Button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -157,12 +150,15 @@
 
         <Button
             android:id="@+id/btnSair"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            style="@style/Botao"
+            android:layout_marginBottom="32dp"
             android:text="sair"
+            app:layout_constraintBottom_toTopOf="@+id/imageView8"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn2" />
+            app:layout_constraintTop_toBottomOf="@+id/btn2"
+            app:layout_constraintVertical_bias="0.0" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

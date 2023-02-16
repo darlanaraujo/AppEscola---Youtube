@@ -16,9 +16,9 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="fitEnd"
+            android:scaleType="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -114,29 +114,29 @@
         <EditText
             android:id="@+id/editN1"
             style="@style/Edit_Text"
-            android:layout_marginStart="28dp"
             android:layout_marginTop="36dp"
+            android:layout_marginBottom="4dp"
             android:inputType="numberDecimal"
             android:maxLength="3"
             android:textColor="@color/azul"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnVerificar"
+            app:layout_constraintStart_toStartOf="@+id/btnVerificar"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <EditText
             android:id="@+id/editN2"
             style="@style/Edit_Text"
-            android:layout_marginStart="32dp"
             android:layout_marginTop="36dp"
             android:inputType="numberDecimal"
             android:maxLength="3"
             android:textColor="@color/azul"
-            app:layout_constraintStart_toEndOf="@+id/editN1"
+            app:layout_constraintEnd_toEndOf="@+id/btnVerificar"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="4dp"
             android:layout_marginBottom="8dp"
             android:text="@string/nota2"
             android:textColor="@color/azul"
@@ -166,8 +166,7 @@
 
         <Button
             android:id="@+id/btnVerificar"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
+            style="@style/Botao"
             android:layout_marginTop="4dp"
             android:backgroundTint="@color/azul"
             android:text="Verificar"
@@ -177,12 +176,9 @@
 
         <Button
             android:id="@+id/btnVoltar"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/azul_100"
+            style="@style/Botao"
             android:onClick="voltar"
             android:text="Voltar"
-            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/view4"
             app:layout_constraintEnd_toEndOf="@+id/view3"
             app:layout_constraintStart_toStartOf="@+id/view3"
